@@ -35,7 +35,7 @@ int main(int argc, char* argv[]) {
         try {
             switch (choice) {
                 case 1: {
-                    cout << "label value: ";  // ✅ ADD THIS LINE
+                    cout << "label value: ";  
                     std::string L;
                     double V;
                     cin >> L >> V;
@@ -43,7 +43,7 @@ int main(int argc, char* argv[]) {
                     break;
                 }
                 case 2: {
-                    cout << "index new_value: ";  // ✅ ADD THIS LINE
+                    cout << "index new_value: ";  
                     int idx;
                     double nv;
                     cin >> idx >> nv;
@@ -59,7 +59,7 @@ int main(int argc, char* argv[]) {
                     break;
                 }
                 case 4: {
-                    cout << "1=avg 2=min 3=max: ";  // Already here ✅
+                    cout << "1=avg 2=min 3=max: ";  
                     int m;
                     cin >> m;
                     double ans = 0.0;
